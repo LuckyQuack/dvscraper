@@ -15,11 +15,11 @@ cookie_button = driver.find_element(by=By.CSS_SELECTOR, value = "button.btn.btn-
 cookie_button.click()
 
 # Find where to input station name and send the name of station you want
-# Possible idea is to automate input of stations to get the dv data for multiple stations
+# Possible idea is to automate input of stations to get the dv data for multiple stations, maybe can use the list of stations that show
 station_name = driver.find_element(by=By.ID, value="dv-to-station")
 station_name.send_keys("Newark Penn Station")
 
-# function to check if the 'Get Real-Time Departures' Button is clickable because it's disabled until the forum gets a valid input
+# function to check if the 'Get Real-Time Departures' Button is clickable because it's disabled until the form gets a valid input
 def element_is_enabled(driver):
     element = driver.find_element(By.XPATH, "//button[contains(text(), 'Get real-time departures')]")
     return element.is_enabled()
