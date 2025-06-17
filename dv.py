@@ -1,3 +1,5 @@
+# This scrapes the departure vision for rails on the njtransit website using Selenium
+# Have to manually input desired station to use in line 22 station_name.send_keys("Station name") 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -68,7 +70,7 @@ for item in trains:
             train = lines[1]
             time = lines[2]
 
-            # default for status and track
+            # Default for status and track
             status = ""
             track = ""
 

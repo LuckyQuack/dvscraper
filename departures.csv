@@ -1,20 +1,20 @@
 Station,Train,Time,Status,Track
-Discharge Only,AMTK Train A98,11:02 AM,2HR 30M LATE,Track 2
-Boston,AMTK Train A86,11:56 AM,ALL ABOARD,Track 2
-Boston,AMTK Train A2162,12:06 PM,in 9 Min,Track 2
-Baltimore,AMTK Train A2117,12:14 PM,,Track 3
-New York -SEC,NJCL Train 3240,12:16 PM,in 4 Min,Track 1
-Trenton ✈,NEC Train 3841,12:19 PM,in 7 Min,Track 4
-New York,AMTK Train A646,12:20 PM,in 11 Min,Track 2
-Harrisburg,AMTK Train A645,12:22 PM,in 11 Min,Track 3
-Washington,AMTK Train A131,12:26 PM,,Track 3
-Long Branch ✈,NJCL Train 3241,12:31 PM,,Track 4
-New York,AMTK Train A182,12:38 PM,in 25 Min,Track 2
-New York -SEC,NEC Train 3840,12:40 PM,in 29 Min,Track 1
-New York -SEC,RARV Train 5134,12:47 PM,,Track 1
-Trenton ✈,NEC Train 3843,12:53 PM,,Track 4
-Roanoke ✈,AMTK Train A171,12:57 PM,,Track 3
-New York,AMTK Train A648,12:57 PM,,Track 2
-New York -SEC,NEC Train 3842,1:01 PM,,Track 1
-High Bridge,RARV Train 5175,1:02 PM,,Track 5
-New York,AMTK Train A2108,1:03 PM,,Track 2
+New York -SEC,NEC Train 3846,1:59 PM,All Aboard,Track 1
+Washington ✈,AMTK Train A133,2:06 PM,All Aboard,Track 3
+New York -SEC,NJCL Train 3248,2:11 PM,in 5 Min,Track 1
+Norfolk,AMTK Train A93,2:19 PM,in 18 Min,Track 3
+New Orleans,AMTK Train A19,2:20 PM,in 14 Min,Track 3
+New York,AMTK Train A84,2:20 PM,in 12 Min,Track 2
+New York -SEC,NEC Train 3848,2:21 PM,in 16 Min,Track 1
+Trenton ✈,NEC Train 3849,2:25 PM,,Track 4
+Harrisburg ✈,AMTK Train A647,2:28 PM,,Track 3
+Washington,AMTK Train A2121,2:30 PM,,Track 3
+Jersey Avenue ✈,NEC Train 3719,2:47 PM,,Track 4
+Miami,AMTK Train A97,2:53 PM,,Track 3
+New York -SEC,NEC Train 3850,2:54 PM,,Track 1
+Harrisburg ✈,AMTK Train A649,2:59 PM,,Track 3
+High Bridge,RARV Train 5179,3:01 PM,,Track 5
+Long Branch ✈,NJCL Train 3251,3:05 PM,,Track 4
+New York -SEC,NJCL Train 3252,3:13 PM,,Track 1
+Washington,AMTK Train A2163,3:15 PM,,Track 3
+Trenton ✈,NEC Train 3937,3:16 PM,,Track 4
