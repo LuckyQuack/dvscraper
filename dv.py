@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
+import csv
 
 driver = webdriver.Firefox()
 
@@ -65,6 +66,12 @@ for item in trains:
 print(data)
 
 #TODO
-# Convert data to csv and add to MongoDB
+# Save data to MongoDB
+
+# Save scraped data to csv file
+with open("departures.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow(["Station", "Train", "Time", "Status", "Track"]) 
+    writer.writerows(data)
 
 driver.quit()
