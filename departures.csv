@@ -1,20 +1,77 @@
-Station,Train,Time,Status,Track
-New York -SEC,NEC Train 3846,1:59 PM,All Aboard,Track 1
-Washington ✈,AMTK Train A133,2:06 PM,All Aboard,Track 3
-New York -SEC,NJCL Train 3248,2:11 PM,in 5 Min,Track 1
-Norfolk,AMTK Train A93,2:19 PM,in 18 Min,Track 3
-New Orleans,AMTK Train A19,2:20 PM,in 14 Min,Track 3
-New York,AMTK Train A84,2:20 PM,in 12 Min,Track 2
-New York -SEC,NEC Train 3848,2:21 PM,in 16 Min,Track 1
-Trenton ✈,NEC Train 3849,2:25 PM,,Track 4
-Harrisburg ✈,AMTK Train A647,2:28 PM,,Track 3
-Washington,AMTK Train A2121,2:30 PM,,Track 3
-Jersey Avenue ✈,NEC Train 3719,2:47 PM,,Track 4
-Miami,AMTK Train A97,2:53 PM,,Track 3
-New York -SEC,NEC Train 3850,2:54 PM,,Track 1
-Harrisburg ✈,AMTK Train A649,2:59 PM,,Track 3
-High Bridge,RARV Train 5179,3:01 PM,,Track 5
-Long Branch ✈,NJCL Train 3251,3:05 PM,,Track 4
-New York -SEC,NJCL Train 3252,3:13 PM,,Track 1
-Washington,AMTK Train A2163,3:15 PM,,Track 3
-Trenton ✈,NEC Train 3937,3:16 PM,,Track 4
+Station,Destination,Train,Time,Status,Track
+Edison Station,New York -SEC ✈,NEC Train 3860,4:35 PM,in 7 Min,Track 1
+Edison Station,Trenton,NEC Train 3857,4:36 PM,in 7 Min,Track 4
+Edison Station,Jersey Avenue,NEC Train 3721,4:43 PM,in 15 Min,Track 4
+Edison Station,New York -SEC ✈,NEC Train 3896,4:44 PM,in 18 Min,Track 1
+Edison Station,New York -SEC ✈,NEC Train 3736,5:02 PM,,Track 1
+Edison Station,Jersey Avenue,NEC Train 3723,5:15 PM,,Track 4
+Edison Station,New York -SEC ✈,NEC Train 3862,5:15 PM,,Track 1
+Edison Station,Trenton,NEC Train 3861,5:30 PM,,Track 4
+Edison Station,New York -SEC ✈,NEC Train 3864,5:33 PM,,Track 1
+Edison Station,Jersey Avenue,NEC Train 3165,5:41 PM,,Track 4
+Edison Station,New York -SEC ✈,NEC Train 3866,5:56 PM,,Track 1
+Edison Station,Jersey Avenue,NEC Train 3725,5:59 PM,,Track 4
+Edison Station,Trenton,NEC Train 3867,6:20 PM,,Track 4
+Edison Station,New York -SEC ✈,NEC Train 3868,6:39 PM,,Track 1
+Edison Station,Jersey Avenue,NEC Train 3727,6:40 PM,,Track 4
+Edison Station,Trenton,NEC Train 3873,7:11 PM,,Track 4
+Edison Station,New York -SEC ✈,NEC Train 3872,7:18 PM,,Track 1
+Edison Station,Trenton,NEC Train 3875,7:32 PM,,Track 4
+Edison Station,New York -SEC ✈,NEC Train 3874,7:52 PM,,Track 1
+Newark Penn Station,Washington ✈,AMTK Train A173,4:22 PM,in 4 Min,Track 3
+Newark Penn Station,South Amboy ✈,NJCL Train 3595,4:28 PM,in 2 Min,Track 4
+Newark Penn Station,Boston,AMTK Train A184,4:28 PM,All Aboard,Track 2
+Newark Penn Station,New York,AMTK Train A42,4:31 PM,in 17 Min,Track 2
+Newark Penn Station,Trenton,NEC Train 3943,4:33 PM,in 9 Min,Track 3
+Newark Penn Station,New York -SEC,NEC Train 3858,4:40 PM,in 11 Min,Track 1
+Newark Penn Station,Washington,AMTK Train A129,4:41 PM,in 12 Min,Track 3
+Newark Penn Station,Jersey Avenue ✈,NEC Train 3723,4:42 PM,in 17 Min,Track 3
+Newark Penn Station,High Bridge,RARV Train 5733,4:44 PM,ALL ABOARD,Track 5
+Newark Penn Station,Bay Head,NJCL Train 3361,4:50 PM,,Track 3
+Newark Penn Station,Trenton ✈,NEC Train 3861,4:52 PM,in 24 Min,Track 4
+Newark Penn Station,Trenton,NEC Train 3947,5:01 PM,,Track 3
+Newark Penn Station,Boston,AMTK Train A94,5:05 PM,,Track 1
+Newark Penn Station,New York -SEC,NJCL Train 3260,5:06 PM,,Track 1
+Newark Penn Station,Jersey Avenue ✈,NEC Train 3165,5:09 PM,,Track 4
+Newark Penn Station,New York -SEC,NEC Train 3860,5:14 PM,,Track 1
+Newark Penn Station,Raritan,RARV Train 5435,5:16 PM,,Track 5
+Newark Penn Station,New York -SEC,NEC Train 3896,5:17 PM,,Track 1
+Newark Penn Station,Trenton,NEC Train 3949,5:19 PM,,Track 3
+Hoboken Terminal,Gladstone,M&E Train 427,4:28 PM,,Track 14
+Hoboken Terminal,Ridgewood -SEC,MAIN Train 1319,4:28 PM,,Track 13
+Hoboken Terminal,Hackettstown,MOBO Train 1079,4:32 PM,,Track 10
+Hoboken Terminal,Dover,M&E Train 643,4:35 PM,,Track 17
+Hoboken Terminal,Spring Valley -SEC,PASC Train 1625,4:38 PM,,Track 2
+Hoboken Terminal,Port Jervis -SEC,BERG Train 53,4:47 PM,,Track 9
+Hoboken Terminal,Suffern -SEC,BERG Train 1165,4:51 PM,,Track 8
+Hoboken Terminal,Ridgewood -SEC,BERG Train 1357,4:56 PM,,Track 13
+Hoboken Terminal,Spring Valley -SEC,PASC Train 1627,5:01 PM,,Track 7
+Hoboken Terminal,Dover,M&E Train 645,5:02 PM,,Track 14
+Hoboken Terminal,Gladstone,M&E Train 429,West 4 cars,5:06 PM,Track 15
+Hoboken Terminal,Mount Olive,MOBO Train 1055,5:12 PM,,Track 12
+Hoboken Terminal,Waldwick -SEC,MAIN Train 1221,5:13 PM,,Track 4
+Hoboken Terminal,Port Jervis -SEC,BERG Train 55,5:16 PM,,Track 3
+Hoboken Terminal,Suffern -SEC,BERG Train 1167,Please Note Track Change,5:21 PM,Track 1
+Hoboken Terminal,MSU,MOBO Train 267,5:23 PM,,Track 15
+Hoboken Terminal,Waldwick -SEC,BERG Train 1269,5:27 PM,,Track 5
+Hoboken Terminal,Lake Hopatcong,M&E Train 807,5:28 PM,,Track 16
+Hoboken Terminal,Spring Valley -SEC,PASC Train 1629,5:32 PM,,Track 2
+New York Penn Station,Bay Head -SEC,NJCL Train 3361,4:30 PM,BOARDING,Track 3
+New York Penn Station,Trenton -SEC ✈,NEC Train 3861,4:33 PM,BOARDING,Track 13
+New York Penn Station,Trenton -SEC,NEC Train 3947,4:41 PM,,
+New York Penn Station,Summit,M&E Train 6343,4:43 PM,,
+New York Penn Station,Dover -SEC,M&E Train 6643,4:46 PM,,
+New York Penn Station,Jersey Avenue -SEC ✈,NEC Train 3165,4:50 PM,,
+New York Penn Station,MSU,MOBO Train 6263,4:52 PM,,
+New York Penn Station,BWI Airport,AMTK Train A2167,5:00 PM,,
+New York Penn Station,Bay Head -SEC,NJCL Train 3363,5:01 PM,,
+New York Penn Station,Trenton,NEC Train 3949,5:03 PM,,
+New York Penn Station,South Amboy -SEC,NJCL Train 3511,5:05 PM,,
+New York Penn Station,Jersey Avenue -SEC ✈,NEC Train 3725,5:08 PM,,
+New York Penn Station,Harrisburg,AMTK Train A653,5:10 PM,,
+New York Penn Station,Trenton -SEC,NEC Train 3951,5:12 PM,,
+New York Penn Station,Dover,M&E Train 6647,5:14 PM,,
+New York Penn Station,Gladstone,M&E Train 6431,5:18 PM,,
+New York Penn Station,Long Branch -SEC ✈,NJCL Train 3265,5:20 PM,,
+New York Penn Station,Trenton -SEC ✈,NEC Train 3867,5:25 PM,,
+New York Penn Station,Washington ✈,AMTK Train A193,5:27 PM,,

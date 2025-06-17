@@ -5,15 +5,13 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 import csv
 
-driver = webdriver.Firefox()
+options = webdriver.FirefoxOptions()
+options.page_load_strategy = 'eager'
+driver = webdriver.Firefox(options=options)
 
 driver.get("https://www.njtransit.com/fifa")
 
 driver.implicitly_wait(1.5)
-
-# Find and click cookies button
-cookie_button = driver.find_element(by=By.CSS_SELECTOR, value = "button.btn.btn-secondary")
-cookie_button.click()
 
 # Find the table holding fifa club world cup schedule
 fifa_schedule = driver.find_element(by=By.TAG_NAME, value="tbody")
