@@ -58,11 +58,31 @@ for item in trains:
         # Split into lines and remove empty lines
         lines = [line.strip() for line in text.split("\n") if line.strip()]
 
-        # Append data into list, remove 3rd element which is always "View Stops"
-        if len(lines) >= 6:
-            station_info = lines[:6]
-            del station_info[2]
-            data.append(station_info)
+        # Removing the 3rd element that's always "View Stops Caret Down"
+        lines = [line for line in lines if line != "View Stops Caret Down"]
+
+        # There is a possibility that status or track # can be missing so we have to deal with that
+        # We first check if there are 3 or more lines, because station, train, and time should always be there
+        if len(lines) >= 3:
+            station = lines[0]
+            train = lines[1]
+            time = lines[2]
+
+            # default for status and track
+            status = ""
+            track = ""
+
+            # Checking for 4th line and figuring out whether its status or track
+            if len(lines) >= 4:
+                # If last line starts with "Track", it's track info
+                if lines[-1].startswith("Track"):
+                    track = lines[-1]
+                    if len(lines) >= 5:
+                        status = lines[-2]  # Second to last is status
+                else:
+                    status = lines[-1]  # Last is status
+
+            data.append([station, train, time, status, track])
 print(data)
 
 #TODO
@@ -74,4 +94,4 @@ with open("departures.csv", "w", newline="", encoding="utf-8") as f:
     writer.writerow(["Station", "Train", "Time", "Status", "Track"]) 
     writer.writerows(data)
 
-driver.quit()
+driver.close()
